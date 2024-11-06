@@ -1,5 +1,10 @@
+# Elevator Pitch:
 
+As cyber threats become increasingly sophisticated, understanding vulnerabilities is essential for defending against attacks. This project analyzes a 2022 dataset of cybersecurity vulnerabilities to uncover patterns in products, vendors, and attack vectors that are most frequently targeted. By using Bayesian networks and classification analysis, we reveal relationships between factors like vulnerability severity, product category, and response time. These insights are designed to help organizations prioritize security efforts, improve patch management, and bolster their cybersecurity defenses against emerging threats, ultimately guiding more resilient risk management strategies.
 
+# Cyber Threat Analysis Using Bayesian Networks
+
+1. Introduction
 Cybersecurity continues to evolve as organizations face an increasing number of sophisticated threats. As technology advances, so do the tactics of malicious actors who exploit vulnerabilities in software and systems (Samtani et al., 2020). In 2022, vulnerabilities reported to the Cybersecurity and Infrastructure Security Agency (CISA) revealed critical weaknesses in various products, sparking significant concern (Rothman and Rothman, 2020). Understanding these vulnerabilities is essential for developing defense strategies, mitigating risks, and improving response times. In this report, we analyze a comprehensive dataset of cybersecurity vulnerabilities from 2022. Using Bayesian networks and extensive classification analysis, we aim to uncover relationships between key factors such as severity, product, vendor, and attack vector. Our goal is to generate insights that can help prioritize responses to vulnerabilities and strengthen the overall cybersecurity posture of organizations.
 To gain deeper insights, we first examine the most frequently targeted products and vendors, identifying industries most affected by these vulnerabilities. By analyzing trends across sectors, we can uncover patterns that may signal emerging threats. We also explore the methods attackers use—such as phishing, social engineering, and zero-day exploits—to understand the most prevalent attack vectors. A key focus is the severity of vulnerabilities and how critical vulnerabilities are distributed across product categories. Bayesian networks allow us to model probabilistic relationships between these factors, offering a clearer understanding of how different elements interact in cybersecurity. Additionally, we assess organizational response times and evaluate mitigation strategies like patch management, aiming to identify best practices that reduce risk. Ultimately, our findings will inform risk management frameworks, helping organizations strengthen their defenses against evolving threats.
 
@@ -12,6 +17,8 @@ To explore relationships between vulnerability features such as severity, vector
 To use Bayesian networks to model and understand the conditional dependencies between various features of vulnerabilities.
 To perform classification analysis using a Naive Bayes classifier to predict the severity of a vulnerability based on its features.
 To derive actionable insights regarding the most vulnerable products and efficient patching strategies. 
+
+
 3. Dataset Overview
 
 The dataset used in this study is sourced from the Cybersecurity and Infrastructure Security Agency (CISA) (Petkova, 2021). It contains detailed information on vulnerabilities reported in 2022, including data on:
